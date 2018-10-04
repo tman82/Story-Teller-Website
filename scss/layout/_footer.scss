@@ -1,0 +1,194 @@
+.big-foot-block {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  background-color: #292929;
+  color: #aaa;
+  .about {
+    padding-left: 0;
+    border-color: #292929; // NOW !!!!!!!!!!!!!
+    h4 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .about-p {
+      margin-bottom: 25px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+    }
+  }
+
+  .right {
+
+    h4 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .contact-p {
+      font-family: 'Raleway', sans-serif;
+      max-width: 500px;
+    }
+    .icon-list {
+      list-style-type: none;
+      padding: 0;
+    }
+    .icon-list li {
+      display: inline-block;
+      margin-right: 5px;
+    }
+  }
+
+  .email-p {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .btn-mid {
+    background-color: #292929;
+    color: #aaa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border-color: #aaa !important;
+    transition: all 0.4s ease-in-out !important;
+  }
+  .btn-mid:hover {
+    background-color: #aaa !important;
+    color: #292929;
+  }
+}
+
+.footer-block {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0 !important;
+  background-color: #292929;
+  color: #aaa;
+  hr {
+    border-top: 1px solid #aaa;
+  }
+  .both-ten {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .ul-col {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    .by {
+      font-family: 'Raleway', sans-serif;
+      position: relative;
+      z-index: 1;
+    }
+    .vid-list {
+      list-style-type: none;
+    }
+    .vid-list li {
+      display: inline-block;
+      margin-right: 25px;
+      font-size: 13px;
+      z-index: 3;
+      a {
+        color: inherit;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+    .vid-list li a:hover {
+      color: #fff;
+    }
+  }
+
+  .copy-div {
+    padding-left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    .copy {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+    .footer-block {
+      .copy {
+        margin-left: 20px;
+      }
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .footer-block {
+    .copy {
+      margin-left: 20px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .footer-block {
+    .copy {
+      margin-left: 20px;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .footer-block {
+    .copy {
+      margin-left: 20px;
+    }
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .footer-block {
+      .copy {
+        margin-left: 17px;
+      }
+      .ul-col {
+        .vid-list {
+          margin-top: -30px !important;
+        }
+      }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+  .ul-col {
+    .vid-list {
+      margin-top: -60px !important;
+      position: relative;
+    }
+  }
+}
+
+/* max-width  */
+@media only screen and (max-width: 1199px) {
+  .footer-block {
+    text-align: center;
+    .ul-col {
+      display: table;
+      margin: 0 auto;
+      .by {
+        margin-top: -12px;
+      }
+      .vid-list {
+        margin-top: -17px !important;
+        padding-top: 25px;
+      }
+    }
+  }
+}
